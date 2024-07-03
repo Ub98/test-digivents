@@ -1,0 +1,26 @@
+.card {
+  width: 200px;
+  margin: 1rem;
+  .strike {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 0.5rem;
+  }
+  p {
+    font-weight: bold;
+    span {
+      font-weight: normal;
+      color: grey;
+      margin-left: 0.2rem;
+    }
+  }
+  .ingredienti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    p {
+      margin: 0;
+    }
+  }
+  
+}
