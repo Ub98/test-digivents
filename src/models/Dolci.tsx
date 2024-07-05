@@ -1,10 +1,10 @@
 export interface Dolci {
-  id: string
+  id: number
   nome: string;
   prezzo: number ;
   data: Date ;
   quantita: number ;
-  ingredienti: string[];
+  ingredienti: Ingredienti[];
 }
 
 export interface DolciDTO {
@@ -12,8 +12,11 @@ export interface DolciDTO {
   prezzo: number | undefined;
   data: Date | undefined;
   quantita: number | undefined;
-  ingredienti: string[];
+  ingredienti: Ingredienti[];
 }
 
 
-
+export interface Ingredienti {
+  id: number;
+  name: string;
+}

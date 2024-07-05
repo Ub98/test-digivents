@@ -63,7 +63,7 @@ const CardDolci = ({
             <div className="ingredienti">
               {ingredienti.map((ing, index) => (
                 <p key={index}>
-                  {ing} {index < ingredienti.length - 1 && ","}
+                  {ing.name} {index < ingredienti.length - 1 && ","}
                 </p>
               ))}
             </div>
